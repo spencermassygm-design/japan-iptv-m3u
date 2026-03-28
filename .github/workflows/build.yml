@@ -1,5 +1,8 @@
 name: Build M3U
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "0 */6 * * *"   # 6時間ごとに自動実行
